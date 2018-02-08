@@ -5,5 +5,7 @@
   "repository": "https://github.com/She-Codes/google-firestore-example-app.git",
   "author": "She-Codes <n.y.shaw@gmail.com>",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
