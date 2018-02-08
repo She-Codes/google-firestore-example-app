@@ -1,3 +1,3 @@
-# google-firestore-example-app
+# Sample NPM Project
 
-Following the example tutorial here: https://www.youtube.com/watch?v=2Vf1D-rUMwE&t=82s
+Trying out npm and getting a handle on the workflow for a simple HTML/CSS/JS project.
