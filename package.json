@@ -5,10 +5,18 @@
   "repository": "https://github.com/She-Codes/google-firestore-example-app.git",
   "author": "She-Codes <n.y.shaw@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "scss": "node-sass scss --source-map true --output-style compressed -o css scss",
+    "autoprefixer": "postcss css/*.css -r -u autoprefixer --no-map​",
+    "buildcss": "yarn run scss && yarn run autoprefixer",
+    "watchcss": "onchange 'scss/*.scss' -- yarn run buildcss"
+  },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "browser-sync": "^2.23.6",
     "node-sass": "^4.7.2",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2",
     "postcss-cli": "^5.0.0"
   }
 }
